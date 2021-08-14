@@ -114,15 +114,17 @@ div.portada__imagen {
 
 
 
-footer {
+/* footer viejo {
     position:static;
     display: block;
-    text-align: center;
+    text-align:justify;
     font-size: 12px;
     background-color: rgba(0, 0, 0, 0.795);
     bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 300px;
     color: rgb(255, 255, 255);
 
 }
+*/
+
