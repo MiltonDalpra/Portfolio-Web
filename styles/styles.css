@@ -61,10 +61,10 @@ div.portada__imagen {
     
   }
 
-    .logo__menu{
-      width: 100px; height: 105px;
-      padding-right: 200px;
-    }
+  .logo__menu{
+    width: 60%; height: 30%;
+    padding-right: 200px;
+  }
 
     a:hover {
       color: rgb(12, 138, 211);
