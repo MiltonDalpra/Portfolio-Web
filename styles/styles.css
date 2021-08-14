@@ -14,9 +14,15 @@ h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.Estilo_Titulo{
-  font-family: 'STIX Two Math', serif;
-}
+div.portada__imagen {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  }
+  img {
+  width: 100%;
+  height: auto;
+  }
 
 .principal{
   display: block;
@@ -31,30 +37,6 @@ h2 {
     background-color: rgb(197, 197, 206);
     font-family: 'Montserrat', sans-serif;
     font-size: 14pt;
-}
-
-.CallToAction{
-  text-decoration:none;
-  font-weight: 600;
-  font-size: 20px;
-  color:#ffffff;
-  padding-top:15px;
-  padding-bottom:15px;
-  padding-left:40px;
-  padding-right:40px;
-  margin-left: 550px;
-  margin-right: 550px;
-  background-color:#0f93df;
-  border-color: #06f3dfad;
-  border-width: 3px;
-  border-style: solid;
-  text-align: center;  
-}
-
-a:link { text-decoration: none;
-}
-a:visited {
-text-decoration: none;
 }
 
 
@@ -75,6 +57,7 @@ text-decoration: none;
     align-items: center;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.795);
+    position: sticky;
     
   }
 
@@ -87,12 +70,7 @@ text-decoration: none;
       color: rgb(12, 138, 211);
     }
 
-
-  .form {
-    display: inline-block;
-    justify-content: center;
-    align-content: center;  
-  }
+    /* fin menu*/
 
   .tablecv{
     margin: 0 auto;
@@ -137,12 +115,14 @@ text-decoration: none;
 
 
 footer {
+    position:static;
     display: block;
+    text-align: center;
     font-size: 12px;
-    background-color: rgb(196, 193, 193);
+    background-color: rgba(0, 0, 0, 0.795);
     bottom: 0;
     width: 100%;
-    height: 70px;
-    color: rgb(0, 0, 0);
+    height: 30px;
+    color: rgb(255, 255, 255);
 
 }
