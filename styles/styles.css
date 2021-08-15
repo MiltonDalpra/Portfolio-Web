@@ -80,7 +80,34 @@ div.portada__imagen {
     border: black 1px solid;
   }
 
-    /* grid portfolio */
+.titulo__contacto{
+  text-align: center;
+  text-shadow: inherit;
+  text-decoration-style: solid;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(100, 200, 255);
+  cursor: pointer;
+}
+
+    /* grid portfolio 
 
   .section__portfolio{
       display: grid;
@@ -109,7 +136,7 @@ div.portada__imagen {
       transform: scale(1.1); 
   }
 
-
+*/ 
 
 /* footer viejo {
     position:static;

@@ -25,22 +25,16 @@
           <a class="menu__estilo" href="contacto.html">Contacto</a>
           </div>
       </nav>
-      <div class="titulo">
-        <h2>Milton Dalprá</h2>
-
-
-        <div>
             <br>
             <br>
-    <fieldset class="fieldset">
-        <legend>Consultas</legend> 
-
-        <form action="ejemplo.php" method="get">
-        <p>Nombre: <input type="text" name="nombre" size="40"></p>
+            <legend class="titulo__contacto">Consultas</legend>
+            
+        <form class="form">
+          <fieldset>
+        <p>Nombre: <input type="text" name="nombre" size="40" placeholder="Escriba su Nombre"></p>
         <p>Apellidos:
-            <input type="text" name="apellidos" size="40" placeholder="Escriba sus apellidos">
+            <input type="text" name="apellidos" size="40" placeholder="Escriba su Apellidos">
           </p>
-        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
         <p>Consulta:
           <input type="radio" name="hm" value="h"> Laboral
           <input type="radio" name="hm" value="m"> Personal
@@ -50,17 +44,16 @@
                 <option value="0">...</option>
                 <option>Diseño</option>
                 <option>Interfaz</option>
-                <option>Marketing</option>
+                <option>Desarrollo</option>
           </select>
         </p>
         <textarea name="texto" rows="4" cols="40" placeholder="Escriba algo"></textarea>
-        <input type="checkbox" name="casilla">Acepto los terminos
-        <p>
           <input type="submit" value="Enviar">
           <input type="reset" value="Borrar">
         </p>
+      </fieldset>
       </form>
-    </fieldset>
+    
         </div>
 
 
