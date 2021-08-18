@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap');
 
-
+.cv { background-color: #2d2e2e;}
 
 h2 {
   font-family: 'Montserrat', sans-serif;
@@ -105,6 +105,25 @@ div.portada__imagen {
   border: none;
   background: rgb(100, 200, 255);
   cursor: pointer;
+}
+
+
+
+/* cv */
+
+div.avatar {
+  height: 250px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
     /* grid portfolio 
