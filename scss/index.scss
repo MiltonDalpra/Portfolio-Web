@@ -1,24 +1,22 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 @import 'features';
 @import 'navbar';
+@import 'Colores';
 
-
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 .navbar {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -69,7 +67,7 @@ div.portada__imagen {
   }
 
     a:hover {
-      color: rgb(12, 138, 211);
+      color: $color-secundario;
       transition: .3s;
     }
 
@@ -144,7 +142,7 @@ a:visited {
 }
 
 .apellido__cv{
-  color: rgb(12, 138, 211);
+  color: $color-secundario;
   font-family: 'Montserrat', sans-serif;
   font-size: 42px;
   font-weight: 700;
@@ -157,10 +155,27 @@ a:visited {
   font-weight: 100;
 }
 
+.descriptor__cv__perfil{
+  color:aliceblue ;
+  font-family: 'montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin-bottom: 100px;
+
+}
+
+.descriptor__cv__formacion{
+  color:aliceblue ;
+  font-family: 'montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin-bottom: 100px;
+}
+
 div.avatar {
   height: 250px;
   width: 250px;
-  background-color: #2d2e2e;
+  background-color: $color-primario;
   background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
@@ -176,10 +191,11 @@ div.avatar {
 }
 
 .hr__cv { 
-  size: 3px;
+  size: 5px;
   background-color:rgb(152, 156, 156);
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  
 }
 
 .container__cv {
@@ -188,22 +204,23 @@ div.avatar {
   flex-flow: row wrap;
   margin-right: -3.5rem;
   position: relative;
-  background-color: #2d2e2e;
+  background-color: $color-primario;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   font-weight: 200;
-  font-size: 14px;
+  font-size: 24px;
   font-family: 'montserrat', sans-serif;
 
 }
 
 
 div.container__cv{
-  background-color: #2d2e2e;
+  background-color: $color-primario;
   color:#ffffff ;
   text-decoration: none;
   margin-top: auto;
   margin-bottom: auto;
   padding-right: 3.5rem;
 }
+
