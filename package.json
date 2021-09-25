@@ -17,9 +17,9 @@
     "url": "https://github.com/MiltonDalpra/Portfolio-Web/issues"
   },
   "homepage": "https://github.com/MiltonDalpra/Portfolio-Web#readme",
-  "description": "",
   "devDependencies": {
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
-  }
+    "nodemon": "^2.0.13"
+  },
+  "description": ""
 }
