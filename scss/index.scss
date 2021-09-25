@@ -62,13 +62,15 @@ div.portada__imagen {
   }
 
   .logo__menu{
-    width: 50%; height: 50%;
-    padding-right: 200px;
+    width: 10%px; height: 10%;
+    padding-right: 100px;
   }
+
+
 
     a:hover {
       color: $color-secundario;
-      transition: .3s;
+      transition: .5s;
     }
 
 
@@ -89,35 +91,12 @@ div.portada__imagen {
   text-shadow: inherit;
   text-decoration-style: solid;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
 }
-
-.form {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.form button {
-  padding: 0.5em 1em;
-  border: none;
-  background: rgb(100, 200, 255);
-  cursor: pointer;
-}
-
-
-
-
-
-
-.container-fluid
-
 
 a:link, a:visited, a:active {
   text-decoration:none;
@@ -165,6 +144,14 @@ a:visited {
 }
 
 .descriptor__cv__formacion{
+  color:aliceblue ;
+  font-family: 'montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin-bottom: 100px;
+}
+
+.descriptor__cv__idiomas{
   color:aliceblue ;
   font-family: 'montserrat', sans-serif;
   font-size: 26px;
@@ -224,3 +211,18 @@ div.container__cv{
   padding-right: 3.5rem;
 }
 
+.img-fluid{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card.h-100{
+  margin-left: 5px;
+  margin-right: 2px;
+  margin-bottom: 30px;
+}
+
+.card-img-top{
+  height: 280px;
+  left: 280px;
+}
